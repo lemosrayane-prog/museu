@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Museu Virtual Premium</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>MUSEU VIRTUAL</h1>
+
+<h2>Povos Originários do Paraná e Povos Africanos</h2>
+
+<p>
+Uma exposição digital interativa sobre cultura,
+história, resistência e ancestralidade.
+</p>
+
+<a href="#inicio" class="btn">Explorar Museu</a>
+
+</div>
+
+</header>
+
+<nav>
+
+<a href="#originarios">Povos Originários</a>
+
+<a href="#africanos">Povos Africanos</a>
+
+<a href="#galeria">Galeria</a>
+
+<a href="#timeline">Linha do Tempo</a>
+
+<a href="#quiz">Quiz</a>
+
+</nav>
+
+<section id="inicio" class="intro">
+
+<h2>Bem-vindo ao Museu Virtual</h2>
+
+<p>
+
+Este museu digital foi criado para apresentar a riqueza
+cultural dos povos originários do Paraná e dos povos
+africanos que contribuíram para a formação da sociedade
+brasileira.
+
+Ao longo desta exposição você conhecerá tradições,
+costumes, artes, histórias e formas de resistência
+que fazem parte do patrimônio cultural do Brasil.
+
+</p>
+
+</section>
+
+<section id="originarios">
+
+<h2>Povos Originários do Paraná</h2>
+
+<div class="card">
+
+<p>
+
+Os povos originários habitam o território paranaense há milhares
+de anos. Entre os principais grupos estão os Guarani, Kaingang
+e Xetá.
+
+Esses povos desenvolveram formas próprias de organização social,
+conhecimentos sobre a natureza, agricultura, medicina tradicional,
+artesanato e espiritualidade.
+
+</p>
+
+<p>
+
+A tradição oral é uma das formas mais importantes de preservação
+cultural. Os mais velhos transmitem histórias, ensinamentos,
+mitos e valores para as novas gerações.
+
+</p>
+
+<p>
+
+As cerâmicas indígenas são importantes vestígios arqueológicos.
+Elas eram utilizadas para armazenar água, alimentos e em rituais
+culturais.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="africanos">
+
+<h2>Povos Africanos</h2>
+
+<div class="card">
+
+<p>
+
+Milhões de africanos foram trazidos ao Brasil durante o período
+escravista.
+
+Mesmo diante das dificuldades e da violência sofrida,
+mantiveram suas tradições, crenças, músicas e conhecimentos.
+
+</p>
+
+<p>
+
+A influência africana está presente na culinária, dança,
+religião, música, arte e na própria identidade cultural
+brasileira.
+
+</p>
+
+<p>
+
+No Paraná, a presença africana contribuiu para o desenvolvimento
+econômico e cultural do estado, fortalecendo a diversidade que
+marca a sociedade brasileira.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="galeria">
+
+<h2>Galeria do Museu</h2>
+
+<div class="gallery">
+
+<img src="imagens/imagem1.jpg">
+<img src="imagens/imagem2.jpg">
+<img src="imagens/imagem3.jpg">
+<img src="imagens/imagem4.jpg">
+<img src="imagens/imagem5.jpg">
+<img src="imagens/imagem6.jpg">
+<img src="imagens/imagem7.jpg">
+<img src="imagens/imagem8.jpg">
+<img src="imagens/imagem9.jpg">
+<img src="imagens/imagem10.jpg">
+
+</div>
+
+</section>
+
+<section id="timeline">
+
+<h2>Linha do Tempo</h2>
+
+<div class="timeline">
+
+<div class="evento">
+<h3>Antes de 1500</h3>
+<p>Povos originários habitavam o Paraná.</p>
+</div>
+
+<div class="evento">
+<h3>1500</h3>
+<p>Chegada dos europeus ao Brasil.</p>
+</div>
+
+<div class="evento">
+<h3>1550</h3>
+<p>Início da chegada de africanos escravizados.</p>
+</div>
+
+<div class="evento">
+<h3>1888</h3>
+<p>Abolição da escravidão.</p>
+</div>
+
+<div class="evento">
+<h3>1988</h3>
+<p>Constituição Federal reconhece direitos indígenas.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="quiz">
+
+<h2>Quiz Cultural</h2>
+
+<div class="quiz-box">
+
+<h3>Qual destes povos é originário do Paraná?</h3>
+
+<button onclick="respostaCorreta()">
+Guarani
+</button>
+
+<button onclick="respostaErrada()">
+Romanos
+</button>
+
+<button onclick="respostaErrada()">
+Egípcios
+</button>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+Museu Virtual Premium © 2026
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
